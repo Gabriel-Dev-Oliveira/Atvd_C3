@@ -10,11 +10,11 @@ int main()
     if(num >= 0)
     {
         raiz = sqrt(num);
-        printf("A raiz quadrada dele é: %d", raiz);
+        printf("A raiz quadrada do %d é: %d",num, raiz);
     }
     else
     {
-       quadrado = num * num;
-       printf("%d",  quadrado);
+       quadrado = -(num * num);
+       printf("O número %d elevedo ao quadrado é %d",num,quadrado);
     }
 }
